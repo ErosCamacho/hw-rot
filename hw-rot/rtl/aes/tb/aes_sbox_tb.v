@@ -2,24 +2,6 @@
 `define DUMPSTR(x) `"x.vcd`"
 `timescale 1 ns / 10 ps
 
-////////////////////////////////////////////////////////////////////////////////////
-// Company: IMSE-CNM CSIC
-// Engineer: Pablo Navarro Torrero
-// 
-// Create Date: 19/09/2024
-// Design Name: aes_sbox_tb.v
-// Module Name: aes_sbox_tb
-// Project Name: AES for SE-QUBIP
-// Target Devices: PYNQ-Z2
-// Tool Versions: Vivado 2020.1
-// Description: 
-//		
-//		AES sbox TESTBENCH
-//		
-// Additional Comment
-//
-////////////////////////////////////////////////////////////////////////////////////
-
 module aes_sbox_tb();
 	
 	//---------------------------------

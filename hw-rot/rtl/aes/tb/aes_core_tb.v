@@ -2,24 +2,6 @@
 `define DUMPSTR(x) `"x.vcd`"
 `timescale 1 ns / 10 ps
 
-////////////////////////////////////////////////////////////////////////////////////
-// Company: IMSE-CNM CSIC
-// Engineer: Pablo Navarro Torrero
-// 
-// Create Date: 20/09/2024
-// Design Name: aes_core_tb.v
-// Module Name: aes_core_tb
-// Project Name: AES for SE-QUBIP
-// Target Devices: PYNQ-Z2
-// Tool Versions: Vivado 2020.1
-// Description: 
-//		
-//		AES core TESTBENCH
-//
-// Additional Comment
-//
-////////////////////////////////////////////////////////////////////////////////////
-
 module aes_core_tb();
 	
 	//---------------------------------

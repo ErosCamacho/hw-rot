@@ -46,7 +46,10 @@ The content of the SE-QUBIP library is depicted in the next container tree:
 The HW-RoT library is ready to perform the communication to the hardware through two different interfaces: AXI-Lite and I2C. All this implementation has been done through the `INTF` variable into the code. 
 To select this configuration during the compilation process, it is ***mandatory*** to change the variable `INTERFACE` (`AXI` or `I2C`) and `BOARD` (`ZCU104` or `PYNQZ2`). If `INTERFACE = I2C`, then the variable `BOARD` is not applied.
 
-## Demo
+## Demo FPL
+The `demo_fpl.c` is the specific demo for the FPL-2025. It shows the 4 security enhances presented in the work. To compile, go to section `demo` and `make demo-fpl`. 
+
+### Other demos
 
 It has been implemented different type of demo:
 - `demo`: the basic demo is working just showing the functionality of the HW-RoT. It will return a ✅ in case the implemented algorithm is working properly or ❌ in other case.
