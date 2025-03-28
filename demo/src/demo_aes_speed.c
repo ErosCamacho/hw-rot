@@ -33,7 +33,7 @@ void test_aes_hw(unsigned char mode[4], unsigned int bits, unsigned int n_test, 
 
     int msg_len = 64;
 
-    unsigned char msg_test[64] = "Hello, this is the SE of QUBIP project"; 
+    unsigned char msg_test[64] = "Hello, this is the HW RoT"; 
 
     unsigned char msg[msg_len];
     memcpy(msg, msg_test, msg_len);

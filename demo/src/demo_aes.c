@@ -12,7 +12,7 @@ void demo_aes_hw(unsigned int bits, unsigned int verb, INTF interface) {
     Set_Clk_Freq(clk_index, &clk_frequency, &set_clk_frequency, (int)verb);
 #endif 
 
-    unsigned char msg[128] = "Hello, this is the SE of QUBIP project";
+    unsigned char msg[128] = "Hello, this is the HW RoT";
 
     // ---- AES-128 ---- //
     if (bits == 128) {

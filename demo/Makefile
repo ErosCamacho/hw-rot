@@ -103,7 +103,7 @@ demo-build: $(DEMO_SOURCES) demo.c $(DEMO_HEADERS)
 	$(CC) -o $@ $(CFLAGS_DEMO_BUILD) $(DEMO_SOURCES) demo.c $(LDFLAGS_DEMO_BUILD) -D$(BOARD) -D$(INTERFACE)
 
 demo-install: $(DEMO_SOURCES) demo.c $(DEMO_HEADERS)
-	$(CC) -o $@ $(DEMO_SOURCES) demo.c $(LDFLAGS_DEMO_INSTALL) -D$(BOARD) -D$(INTERFACE) -DSEQUBIP_INST
+	$(CC) -o $@ $(DEMO_SOURCES) demo.c $(LDFLAGS_DEMO_INSTALL) -D$(BOARD) -D$(INTERFACE) -DHWROT_INST
 
 demo-speed-all: $(SOURCES_SPEED) demo_speed.c $(HEADERS)
 	$(CC) -o $@ $(CFLAGS_DEMO) $(SOURCES_SPEED) demo_speed.c $(LDFLAGS_DEMO) -D$(BOARD) -D$(INTERFACE)
@@ -112,7 +112,7 @@ demo-speed-build: $(DEMO_SPEED_SOURCES) demo_speed.c $(DEMO_HEADERS)
 	$(CC) -o $@ $(CFLAGS_DEMO_BUILD) $(DEMO_SPEED_SOURCES) demo_speed.c $(LDFLAGS_DEMO_BUILD) -D$(BOARD) -D$(INTERFACE)
 
 demo-speed-install: $(DEMO_SPEED_SOURCES) demo_speed.c $(DEMO_HEADERS)
-	$(CC) -o $@ $(CFLAGS_DEMO_BUILD) $(DEMO_SPEED_SOURCES) demo_speed.c $(LDFLAGS_DEMO_INSTALL) -D$(BOARD) -D$(INTERFACE) -DSEQUBIP_INST
+	$(CC) -o $@ $(CFLAGS_DEMO_BUILD) $(DEMO_SPEED_SOURCES) demo_speed.c $(LDFLAGS_DEMO_INSTALL) -D$(BOARD) -D$(INTERFACE) -DHWROT_INST
 
 demo-fpl: $(SOURCES) demo_fpl.c $(HEADERS)
 	$(CC) -o $@ $(CFLAGS_DEMO) $(SOURCES) demo_fpl.c $(LDFLAGS_DEMO) -D$(BOARD) -D$(INTERFACE)

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\demo",
+    "\\demo\\src",
+    "\\hw-rot",
+    "\\hw-rot\\bit",
+    "\\hw-rot\\rtl",
+    "\\hw-rot\\rtl\\aes",
+    "\\hw-rot\\rtl\\aes\\tb",
+    "\\hw-rot\\src",
+    "\\hw-rot\\src\\mac"
+  ],
+  "SelectedNode": "\\hw-rot\\rtl\\aes\\aes_keyschedule.v",
+  "PreviewInSolutionExplorer": false
+}

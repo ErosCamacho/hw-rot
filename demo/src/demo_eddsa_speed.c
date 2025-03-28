@@ -44,7 +44,7 @@ void test_eddsa_hw(unsigned int mode, unsigned int n_test, unsigned int verb, ti
     unsigned char* pri_key;
     unsigned int pub_len;
     unsigned int pri_len;
-    unsigned char msg[] = "Hello, this is the SE of QUBIP project";
+    unsigned char msg[] = "Hello, this is the HW RoT";
     unsigned char* sig;
     unsigned int sig_len;
     unsigned int result = 1;

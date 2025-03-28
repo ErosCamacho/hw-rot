@@ -1,25 +1,4 @@
 
-// `default_nettype none
-
-////////////////////////////////////////////////////////////////////////////////////
-// Company: IMSE-CNM CSIC
-// Engineer: Pablo Navarro Torrero
-// 
-// Create Date: 26/09/2024
-// Design Name: aes_itf.v
-// Module Name: aes_itf
-// Project Name: AES for SE-QUBIP
-// Target Devices: PYNQ-Z2
-// Tool Versions: Vivado 2020.1
-// Description: 
-//		
-//		AES Interface for SE-QUBIP
-//
-// Additional Comment
-//
-////////////////////////////////////////////////////////////////////////////////////
-
-
 module aes_itf #(
                  localparam WIDTH      = 64,
                  localparam IN_REG     = 7,

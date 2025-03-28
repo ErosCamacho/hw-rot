@@ -1,7 +1,3 @@
---
--- roc_en.vhd - VHDL code for PUF4R5_2.1 Enable Generator
--- santiago@imse-cnm.csic.es (07/01/2024)
---
 
 library IEEE;
 use IEEE.std_logic_1164.all;

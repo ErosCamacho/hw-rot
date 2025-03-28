@@ -1,7 +1,3 @@
---
--- roc_bnk.vhd - VHDL code for PUF4R5_2.1 Ring_Oscillator Bank
--- santiago@imse-cnm.csic.es (07/01/2024)
---
 
 library IEEE;
 use IEEE.std_logic_1164.all;

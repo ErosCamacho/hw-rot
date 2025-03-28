@@ -1,7 +1,3 @@
---
--- puf_pkg.vhd - VHDL package for PUF4R2
--- santiago@imse-cnm.csic.es (03/03/2022)
---
 
 package puf_pkg is
     function clog2( n : natural) return integer;

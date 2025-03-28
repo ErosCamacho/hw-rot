@@ -6,7 +6,7 @@ This is the repository of the HW Root-of-Trust developed for the work: "Enhanced
 
 ## Description
 
-The content of the SE-QUBIP library is depicted in the next container tree:
+The content of the HW-ROT library is depicted in the next container tree:
     
     .
     ├── hw-rot            # folder that contains all the files of the HW-RoT.

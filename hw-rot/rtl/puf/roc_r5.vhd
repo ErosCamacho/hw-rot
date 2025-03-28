@@ -1,7 +1,3 @@
---
--- roc.vhd - VHDL code for Configurable 4-stage ring_oscillator
--- santiago@imse-cnm.csic.es (07/01/2024)
---
 
 library ieee;
 use ieee.std_logic_1164.all;

@@ -29,7 +29,7 @@ void demo_eddsa_hw(unsigned int mode, unsigned int verb, INTF interface) {
         if (verb >= 3) { printf("\n private key: "); show_array(pri_key, pri_len, 32); }
 
 
-        unsigned char msg[] = "Hello, this is the SE of QUBIP project";
+        unsigned char msg[] = "Hello, this is the HW RoT";
 
         unsigned char* sig; 
         unsigned int sig_len;

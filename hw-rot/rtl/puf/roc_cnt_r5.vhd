@@ -1,7 +1,3 @@
---
--- roc_cnt.vhd - VHDL code for binary/Gray counter
--- santiago@imse-cnm.csic.es (02/06/2023)
---
 
 library IEEE;
 use IEEE.std_logic_1164.all;
